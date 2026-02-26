@@ -1,0 +1,25 @@
+{
+  "name": "deployment-dashboard-server",
+  "version": "1.0.0",
+  "description": "Real-time deployment dashboard API server",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "@xterm/addon-fit": "^0.11.0",
+    "@xterm/addon-search": "^0.16.0",
+    "@xterm/addon-web-links": "^0.12.0",
+    "@xterm/xterm": "^6.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.3.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.3",
+    "node-pty": "^1.1.0",
+    "ws": "^8.19.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
